@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: TPCH
+    schema: TPCH_SF1
+    tables:
+    -  name: Customer
+    -  name: Orders
+    -  name: Part
+    -  name: LineItem
+    -  name: Supplier
+    -  name: PartSupp
